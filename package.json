@@ -1,0 +1,20 @@
+{
+  "name": "telegram-song-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot to download songs using YouTube links or song names",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "node-telegram-bot-api": "^0.57.0",
+    "path": "^0.12.7",
+    "ytdl-core": "^4.9.1",
+    "youtube-search-api": "^1.0.4"
+  },
+  "author": "developer saviya-md",
+  "license": "ISC"
+}
